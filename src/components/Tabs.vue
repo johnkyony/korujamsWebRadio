@@ -1,8 +1,8 @@
 <template>
   <div>
     <ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a v-for="(genre , i) in genres" :key="i" @click="getGenreItems(genre)" class="nav-link active"  data-toggle="tab" href="#home">{{genre}}</a>
+  <li class="nav-item" v-for="(genre , i) in genres" :key="i">
+    <a  @click="getGenreItems(genre)" class="nav-link active"  data-toggle="tab" href="#home">{{genre}}</a>
   </li>
   <!-- <li class="nav-item">
     <a class="nav-link" data-toggle="tab" href="#profile">Profile</a>
