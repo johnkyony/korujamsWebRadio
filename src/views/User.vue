@@ -21,7 +21,7 @@
                     {{numberSeparator(userProfileData.followers_count)}}
                   </p>
                   <a :href="userProfileData.website" target="_blank">
-                    <font-awesome-icon icon="globe">
+                    <font-awesome-icon icon="globe"/>
                       {{userProfileData.website_title}}
                   </a>
                 </div>
